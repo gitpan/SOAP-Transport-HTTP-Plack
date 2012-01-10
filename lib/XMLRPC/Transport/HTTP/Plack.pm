@@ -13,11 +13,11 @@ XMLRPC::Transport::HTTP::Plack - transport for Plack (http://search.cpan.org/~mi
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 =head1 SYNOPSIS
@@ -52,6 +52,7 @@ Make response. "Autocalled" from server side on response.
 
 sub make_response; *make_response = \&XMLRPC::Transport::HTTP::CGI::make_response;
 
+=back
 
 =head1 AUTHOR
 

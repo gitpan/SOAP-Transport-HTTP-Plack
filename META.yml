@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               SOAP-Transport-HTTP-Plack
-version:            0.01
+version:            0.02
 abstract:           transport for Plack (http://search.cpan.org/~miyagawa/Plack/) PSGI toolkit for SOAP::Lite module.
 author:
     - Elena Bolshakova <e.a.bolshakova@yandex.ru>

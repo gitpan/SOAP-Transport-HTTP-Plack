@@ -17,11 +17,11 @@ Docs were stolen completely from SOAP::Transport::HTTP::Nginx.
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 =head1 SYNOPSIS
@@ -77,17 +77,19 @@ sub handler {
     return [$code, \@headers, [$self->response->content] ];
 }
 
-{ 
 =item handle
 
 Alias for handler.
 
 =cut
 
+{ 
     #just create alias
     sub handle; 
     *handle = \&handler 
 } 
+
+=back
 
 =head1 AUTHOR
 
