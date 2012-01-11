@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               SOAP-Transport-HTTP-Plack
-version:            0.02
+version:            0.03
 abstract:           transport for Plack (http://search.cpan.org/~miyagawa/Plack/) PSGI toolkit for SOAP::Lite module.
 author:
     - Elena Bolshakova <e.a.bolshakova@yandex.ru>
@@ -11,7 +11,9 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    Test::More:  0
+    SOAP::Transport::HTTP:  0
+    Test::More:           0
+    XMLRPC::Transport::HTTP:  0
 no_index:
     directory:
         - t

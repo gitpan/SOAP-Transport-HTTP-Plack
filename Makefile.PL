@@ -14,6 +14,8 @@ WriteMakefile(
     PL_FILES            => {},
     PREREQ_PM => {
         'Test::More' => 0,
+        'XMLRPC::Transport::HTTP'   => 0,
+        'SOAP::Transport::HTTP'     => 0,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'SOAP-Transport-HTTP-Plack-*' },

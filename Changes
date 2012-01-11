@@ -1,5 +1,8 @@
 Revision history for SOAP-Transport-HTTP-Plack
 
+0.03    Wed Jan 11 08:27:02 MSK 2012
+        - fixed prerequisites
+
 0.02    Tue Jan 10 16:18:23 MSK 2012
         - fixed PODs syntax 
 
